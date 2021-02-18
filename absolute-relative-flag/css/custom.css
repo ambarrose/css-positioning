@@ -1,0 +1,74 @@
+/* all custom css */
+h1 {
+  color: #740b70;
+}
+
+button {
+  /* margin-left: 300px; */
+  position: relative;
+  left: 300px;
+  padding: 15px;
+  font-size: 25px;
+  margin-top: 30px;
+}
+.flag {
+  width: 100%;
+  background-color: #04297b;
+  height: 400px;
+  width: 750px;
+  position: relative;
+
+}
+
+.union {
+  width: 400px;
+  height: 200px;
+}
+
+.star-one {
+  color: #cd192f;
+  font-size: 50px;
+  position: absolute;
+  top: 75px;
+  right: 150px;
+  -webkit-text-stroke-width:2px;
+  -webkit-text-stroke-color:white;
+  /* to give text a stoke */
+}
+
+.star-two {
+  color: #cd192f;
+  font-size: 45px;
+  position: absolute;
+  top: 130px;
+  right: 90px;
+  -webkit-text-stroke-width:2px;
+  -webkit-text-stroke-color:white;
+}
+
+.star-three {
+  color: #cd192f;
+  font-size: 50px;
+  position: absolute;
+  top: 150px;
+  right: 210px;
+  -webkit-text-stroke-width:2px;
+  -webkit-text-stroke-color:white;
+}
+
+.star-four {
+  color: #cd192f;
+  font-size: 55px;
+  position: absolute;
+  top: 265px;
+  right: 150px;
+  -webkit-text-stroke-width:2px;
+  -webkit-text-stroke-color:white;
+}
+.flag-stick {
+  position: absolute;
+  height: 800px;
+  width: 40px;
+  color: black;
+  z-index: 99;
+}
