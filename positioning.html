@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+
+    html {
+      height:8000px;
+    }
+    .block {
+      border: 1px solid;
+      color: black;
+      height: 200px;
+      width: 400px;
+      margin: 15px;
+      padding: 20px;
+    }
+
+    .absolute {
+      position: absolute;
+      top: 10px;
+      left: 683px;
+      background-color: rgb(39, 36, 168);
+    }
+
+    /* .absolute.b {
+      position: absolute;
+      top: 10px;
+      right: 300px;
+      background-color: rgb(118, 36, 168);
+    } */
+
+    .static {
+      position: static;
+      background-color: rgb(196, 14, 14);
+    }
+
+    .relative {
+      position: relative;
+      left: 100px;
+      top: -25px;
+      background-color: rgb(25, 164, 48);
+    }
+
+    .fixed {
+      position: fixed;
+      top: 250px;
+      right: 750px;
+      background-color: rgb(254, 201, 13);
+    }
+
+  </style>
+</head>
+<body>
+  <div class="block static">
+    <h4>Static = Default positioning</h4>
+    <p>Does not move</p>
+  </div>
+  <!-- static div ends  -->
+  <div class="block absolute">
+    <h4>Absolute positioning</h4>
+    <p>I am positioned to the viewport or window. Used for Logos as you can tell it to stay where you want it. It disapears as you scroll</p>
+  </div>
+
+  <!-- <div class="block absolute b">
+    <h4>Absolute positioning</h4>
+    <p>I am positioned to the viewport or window</p>
+  </div> -->
+  <!-- absolute div ends -->
+  <div class="block fixed">
+    <h4>Fixed positioning</h4>
+    <p>I am fixed even if you scroll, I am positioned relative to the accesskey. Used for Nav or back to top button as the item doesnt leave the position as you scroll. Can be used for pop up subscribe or log in boxes</p>
+  </div>
+  <!-- fixed div ends -->
+  <div class="block relative">
+    <h4>Relative positioning</h4>
+    <p>I am positioned relative to where I am usually placed. </p>
+  </div>
+  <!-- relative div ends -->
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+</body>
+</html>
